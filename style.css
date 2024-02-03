@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #3B4664;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    background-color: #252D44;
+    width: 320px;
+    height: 450px;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.calculator button {
+    border: none;
+    width: 55px;
+    height: 55px;
+    background-color: #3B4664;
+    cursor: pointer;
+    margin: 7px;
+    border-radius: 4px;
+    font-size: larger;
+    color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+    transition: 0.1s;
+}
+
+.calculator button:hover {
+    background-color: #54638b;
+}
+
+.calculator .numbers {
+    transform: translateX(16px);
+}
+
+.display input {
+    width: 280px;
+    height: 60px;
+    margin: 18px 10px 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #181F32;
+    outline: none;
+    color: #fff;
+    font-size: 30px;
+    padding: 10px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.calculator .equal {
+    width: 128px;
+    background-color: rgb(255, 96, 39);
+}
+
+.calculator .operator {
+    color: rgb(250, 121, 74);
+}
